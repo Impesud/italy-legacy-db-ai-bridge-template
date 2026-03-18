@@ -1,0 +1,14 @@
+# Demo DB (generato da scripts/create_demo_db.py)
+data/
+
+# Venv e cache
+.venv/
+__pycache__/
+.pytest_cache/
+*.pyc
+
+# Build artifacts
+*.egg-info/
+
+# Cursor MCP config (machine-specific absolute paths)
+.cursor/mcp.json

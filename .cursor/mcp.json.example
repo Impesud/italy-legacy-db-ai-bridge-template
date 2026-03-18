@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "italy-legacy-db": {
+      "command": "TUO_PATH_ASSOLUTO_PROGETTO/.venv/bin/python",
+      "args": ["-m", "app.server"],
+      "env": {
+        "ITALY_LEGACY_DB_URL": "sqlite:////TUO_PATH_ASSOLUTO_PROGETTO/data/legacy.db"
+      }
+    }
+  }
+}

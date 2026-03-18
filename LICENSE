@@ -1,0 +1,50 @@
+Impesud Proprietary Source-Available License
+Version 1.0 — 2026-03-18
+
+Copyright (c) 2026 Impesud. All rights reserved.
+
+This repository is made publicly accessible for transparency and evaluation.
+However, the software remains proprietary.
+
+1. Definitions
+   "Software" means the contents of this repository, including source code,
+   documentation, and related files.
+   "You" means any person or legal entity exercising permissions under this
+   license.
+
+2. No permission grant
+   Except as expressly permitted in Section 3, Impesud does not grant You any
+   rights to use, copy, modify, distribute, or create derivative works of the
+   Software.
+
+3. Limited permission to view
+   You may access and view the Software solely for internal evaluation and
+   security review purposes.
+
+4. Prohibited uses (non-exhaustive)
+   You may not:
+   - use the Software in production or for any commercial purpose;
+   - copy, redistribute, publish, or sublicense the Software;
+   - modify the Software or create derivative works;
+   - provide the Software as a service or integrate it into another product.
+
+5. Contributions
+   Any contribution (pull request, patch, suggestion, or other submission)
+   provided to Impesud may be used, modified, and incorporated by Impesud
+   without restriction, unless otherwise agreed in writing.
+
+6. No warranty
+   THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+   IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+   FITNESS FOR A PARTICULAR PURPOSE, AND NON-INFRINGEMENT.
+
+7. Limitation of liability
+   IN NO EVENT SHALL IMPESUD BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER
+   LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT, OR OTHERWISE, ARISING
+   FROM, OUT OF, OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
+   DEALINGS IN THE SOFTWARE.
+
+8. Contact
+   For licensing inquiries (commercial use, redistribution, or other rights),
+   contact: amministrazione@impesud.it
+

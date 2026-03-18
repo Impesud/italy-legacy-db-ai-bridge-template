@@ -1,0 +1,15 @@
+{
+  "tables": {
+    "Anagrafica_Clienti": "ANAG00F",
+    "Anagrafica_Fornitori": "FORN00F",
+    "Fatture": "FAT00F",
+    "Note_Credito": "NCR00F",
+    "Ordini": "ORD00F",
+    "DDT": "DDT00F",
+    "Articoli": "ART00F",
+    "Magazzino": "MAG00F",
+    "Scadenziario": "SCA00F",
+    "Pagamenti": "PAG00F"
+  },
+  "description": "Template: logical (ERP-friendly) names map to physical legacy table names. Replace values with your gestionale schema."
+}

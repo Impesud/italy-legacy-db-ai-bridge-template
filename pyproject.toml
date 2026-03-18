@@ -1,0 +1,36 @@
+[build-system]
+requires = ["setuptools>=61", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "italy-legacy-db-ai-bridge"
+version = "0.1.0"
+description = "MCP bridge for querying Italian legacy databases (AS/400, SQL Server) with semantic mapping and PII masking"
+readme = "README.md"
+requires-python = ">=3.10"
+license = "Proprietary"
+authors = [{ name = "Italy Legacy DB Team" }]
+dependencies = [
+    "mcp>=1.0.0",
+    "sqlalchemy>=2.0.0",
+    "pydantic>=2.0.0",
+]
+
+[project.optional-dependencies]
+odbc = [
+    "pyodbc>=5.0.0",
+]
+dev = [
+    "pytest>=7.0.0",
+    "pytest-asyncio>=0.21.0",
+]
+
+[project.scripts]
+italy-legacy-bridge = "app.server:main"
+
+[tool.setuptools.packages.find]
+include = ["app"]
+
+[tool.pytest.ini_options]
+asyncio_mode = "auto"
+testpaths = ["tests"]
