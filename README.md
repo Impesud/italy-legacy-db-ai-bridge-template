@@ -1,6 +1,6 @@
-# 🇮🇹 Italy Legacy DB AI Bridge: Enterprise MCP Template per ERP Italiani
+# Italy Legacy DB AI Bridge: Enterprise MCP Template per ERP Italiani
 
-[![MCP Protocol](https://img.shields.io/badge/Protocol-MCP-blue)](https://modelcontextprotocol.io) [![Python 3.10+](https://img.shields.io/badge/python-3.10+-green.svg)](https://www.python.org/)
+[![IT](https://img.shields.io/badge/IT-Italy-009246?style=flat-square)](https://www.impesud.it) [![Claude](https://img.shields.io/badge/Claude-MCP%20Ready-D97757?style=flat-square&logo=claude&logoColor=fff)](https://www.anthropic.com/claude) [![MCP Protocol](https://img.shields.io/badge/Protocol-MCP-blue)](https://modelcontextprotocol.io) [![Python 3.10+](https://img.shields.io/badge/python-3.10+-green.svg)](https://www.python.org/) [![Config JSON](https://img.shields.io/badge/Config-JSON-ff9900?style=flat-square)](config/mapping.json) [![SQL Server](https://img.shields.io/badge/SQL%20Server-ODBC-CC2927?style=flat-square&logo=microsoftsqlserver)](https://www.microsoft.com/sql-server) [![IBM i](https://img.shields.io/badge/IBM-i%20%28AS%2F400%29-054ADA?style=flat-square&logo=ibm)](https://www.ibm.com/it-infrastructure/power/ibm-i) [![GDPR](https://img.shields.io/badge/GDPR-Compliant-1f4788?style=flat-square)](docs/SECURITY_GDPR.md) [![ERP Italiani](https://img.shields.io/badge/ERP-Zucchetti%20%7C%20TeamSystem%20%7C%20Danea%20%7C%20altri-232F3E?style=flat-square)](https://www.impesud.it)
 
 **Italy Legacy DB AI Bridge** è un template professionale basato sullo standard **Model Context Protocol (MCP)** per integrare in sicurezza assistenti AI (Claude, Cursor) con database gestionali legacy e sistemi ERP italiani (AS/400, SQL Server, SAP, Oracle). 
 
@@ -92,6 +92,16 @@ In alternativa, è già presente un modello su [.cursor/mcp.json.example](.curso
 
 ---
 
+### 📸 Risultati in Claude
+
+Di seguito alcuni screenshot che mostrano il bridge in uso con Claude: configurazione, connettore attivo, interrogazioni su tabelle mappate e report del tool di privacy cleanup.
+
+| Configurazione / Connettore MCP | Interrogazione tabelle | Report privacy cleanup |
+|---------------------------------|------------------------|------------------------|
+| ![Configurazione MCP in Claude](docs/assets/configurazione-claude-mcp-impesud-2026.png) ![Connettore italy-legacy-db](docs/assets/mcp-claude-impesud-2026-1.png) | ![Anagrafica Clienti](docs/assets/mcp-claude-impesud-2026-2.png) ![Fatture](docs/assets/mcp-claude-impesud-2026-3.png) | ![Report privacy cleanup](docs/assets/mcp-claude-impesud-2026-4.png) |
+
+---
+
 ### 🧩 Tool MCP Esposti
 * **`query_legacy_db`**: Esegue interrogazioni sicure su tabelle mappate. I risultati vengono processati in tempo reale per mascherare PII (Codice Fiscale/IBAN).
 * **`privacy_cleanup`**: Chiude i pool di connessione, resetta lo stato interno e genera un report di conformità sessione (timestamp, stato azzerato, esito).
@@ -107,4 +117,16 @@ In alternativa, è già presente un modello su [.cursor/mcp.json.example](.curso
 * 📑 [Guida Integrazione Claude Desktop](docs/CLAUDE_DESKTOP_WINDOWS.md)
 * 🛡️ [Sicurezza & GDPR Compliance](docs/SECURITY_GDPR.md)
 
-**Licenza**: Proprietà Intellettuale di Impesud (Source-Available).
+---
+
+### 📄 Licenza
+
+Proprietà Intellettuale di **[Impesud](https://www.impesud.it)** (Source-Available). Vedi [LICENSE](LICENSE).
+
+---
+
+### 📬 Contatti
+
+* **Sito**: [impesud.it](https://www.impesud.it)
+* **Email**: [amministrazione@impesud.it](mailto:amministrazione@impesud.it)
+* Per richieste commerciali, supporto o informazioni sulla licenza: [Contatti Impesud](https://www.impesud.it/contatti/) o via email.
